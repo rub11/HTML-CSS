@@ -1,0 +1,111 @@
+/* codificando com nick */
+* {
+    margem: 0px;
+    preenchimento: 0px;
+}
+
+.bgimage {
+    plano de fundo: gradiente linear(rgba(0, 0, 0, 0, 55), rgba(0, 0, 0, 0, 55)), url("BG.jpg");
+    tamanho do fundo: 100%;
+    largura: 100%;
+    altura: 100vh;
+}
+
+.cardápio {
+    largura: 100%;
+    altura: 100px;
+    cor de fundo: rgba(0, 0, 0, 0, 1);
+}
+
+.menu esquerdo {
+    largura: 20%;
+    altura da linha: 100Px;
+    flutuar: esquerda;
+}
+
+.menu esquerdo h4 {
+    preenchimento à esquerda: 70px;
+    intensidade da fonte: Negrito;
+    cor branca;
+    tamanho da fonte: 22px;
+    família de fontes: 'montserrat', sem serifa;
+}
+
+.menu direito {
+    largura: 60%;
+    altura: 100Px;
+    flutuar: certo;
+}
+
+.rightmenuul {
+    margem esquerda: 200px;
+}
+
+.rightmenu ul li {
+    display: bloco embutido;
+    família de fontes: 'montserrat', sem serifa;
+    estilo de lista: nenhum;
+    tamanho da fonte: 15px;
+    cor branca;
+    intensidade da fonte: Negrito;
+    altura da linha: 100px;
+    margem esquerda: 40px;
+    transformação de texto: maiúscula;
+    cursor: ponteiro;
+}
+
+.rightmenu ul li:hover {
+    cor: #00ccff;
+}
+
+#primeiralista {
+    cor: #00ccff;
+}
+
+.texto {
+    largura: 100%;
+    margem superior: 185px;
+    transformação de texto: maiúscula;
+    alinhamento de texto: centro;
+    cor branca;
+
+}
+
+.texto h4 {
+    tamanho da fonte: 14px;
+    família de fontes: 'open sans', sans-serif;
+}
+
+.texto h1 {
+    tamanho da fonte: 62px;
+    família de fontes: 'montserrat', sem serifa;
+    peso da fonte: 700px;
+    margem: 14px 0px;
+}
+
+.texto h3 {
+    tamanho da fonte: 15px;
+    família de fontes: 'open sans', sans-serif;
+}
+
+.btn {
+    cor de fundo: rgba (255.255.255, 0, 164);
+    cor branca;
+    família de fontes: 'montserrat', sem serifa;
+    fronteira: nenhuma;
+    tamanho da fonte: 15px;
+    intensidade da fonte: Negrito;
+    transformação de texto: maiúscula;
+    altura da linha: 40px;
+    largura: 150px;
+    margem superior: 25px;
+    borda: 3px branco sólido;
+    cursor: ponteiro;
+}
+
+.btn:hover {
+    cor de fundo: branco;
+    cor preta;
+}
+
+/* codificando com nick */
