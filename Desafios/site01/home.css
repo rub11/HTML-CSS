@@ -7,7 +7,7 @@ header{
     
 }
  .primeiroh1{
-    background-color: rebeccapurple;
+    background-color: rgb(51, 126, 153);
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -18,7 +18,8 @@ nav{
    
 }
 nav:hover{
-    text-decoration: underline;
+   
+   
     
 }
 body{
@@ -40,6 +41,11 @@ a{
     padding-right: 30px;
     padding-left: 10px;
     text-decoration: none;
+}
+a:hover{
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: underline;
 }
 main{
     width: 1000px;
