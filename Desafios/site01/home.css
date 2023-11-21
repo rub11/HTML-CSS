@@ -1,0 +1,49 @@
+header{
+    
+        width: 1000px;
+        max-width: 100vw;
+        min-width: 300px;
+        margin: auto;
+    
+}
+ .primeiroh1{
+    background-color: rebeccapurple;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+ }
+nav{
+    background-image: linear-gradient(to right, #000000af, #00000063);
+   
+}
+nav:hover{
+    text-decoration: underline;
+    
+}
+body{
+    background-image: url(imagens/BG.jpg);
+    margin: 0;
+}
+h1{
+    font-family: 'Josefin Slab', serif;
+font-family: 'Love Ya Like A Sister', cursive;
+text-align: center;
+}
+
+a{
+    font-family: 'Amatic SC', sans-serif;
+    align-self: start;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+main{
+    width: 1000px;
+    max-width: 100vw;
+    min-width: 300px;
+    margin: auto;
+}
