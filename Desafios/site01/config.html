@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Configurações</title>
+    <link rel="stylesheet" href="config.css">
+</head>
+<body>
+    <div class="settings-container">
+        <h2>Configurações</h2>
+        <form>
+            <label for="username">Nome de Usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Nova Senha:</label>
+            <input type="password" id="password" name="password">
+
+            <label for="confirm-password">Confirmar Nova Senha:</label>
+            <input type="password" id="confirm-password" name="confirm-password">
+
+            <label for="notifications">Receber Notificações:</label>
+            <input type="checkbox" id="notifications" name="notifications">
+
+            <button type="submit">Salvar Configurações</button>
+        </form>
+    </div>
+</body>
+</html>
