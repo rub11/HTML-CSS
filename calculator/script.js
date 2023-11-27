@@ -8,7 +8,7 @@ function clearDisplay() {
     display.value = '';
 }
 
-function calculate() {
+function calculateResult() {
     try {
         display.value = eval(display.value);
     } catch (error) {
